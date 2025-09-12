@@ -1,4 +1,3 @@
-
 const fmessage = "Well done! Here’s your next code and clue";
 const steps = {
   1: { passkey: "apple123", message: fmessage, clue: "Where u find everyone in the break" , nextCode: "banana456" },
@@ -7,9 +6,9 @@ const steps = {
   4: { passkey: "tomato456", message: "congrats on completing the heist", clue:" no more clues" , nextCode: null }
 };
 
-// Get step number from URL: verify.html?step=1
+
 const urlParams = new URLSearchParams(window.location.search);
-const step = parseInt(urlParams.get("step")) ;
+const step = parseInt(urlParams.get("step")||2); ;
 
 function verifyCode() {
   const enteredCode = document.getElementById("userCode").value;
@@ -26,4 +25,3 @@ function verifyCode() {
     document.getElementById("clue").innerText = "";
     document.getElementById("next").innerText = "";
   }
-}
