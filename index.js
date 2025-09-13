@@ -29,7 +29,7 @@ const steps = {
   5: { 
     passkey: "grape321", 
     message: fmessage, 
-    clue: "Along the corridor before the wise professor’s door, with BMSCE’s painted mark", 
+    clue: "Along the corridor at 7th floor before the wise professor’s door, with BMSCE’s painted mark", 
     nextCode: "melon654" 
   },
   6: { 
@@ -137,3 +137,4 @@ function verifyCode() {
   }
 
 }
+
