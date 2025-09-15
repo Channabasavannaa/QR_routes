@@ -29,7 +29,7 @@ const steps = {
   5: { 
     passkey: "Echo602", 
     message: fmessage, 
-    clue: "Along the corridor where wisdom flows, Before the wise one’s door it shows. With BMSCE’s mark and learning signs, A painted tale where knowledge shines.", 
+    clue: "Along the 7th floor corridor where wisdom flows, Before the wise one’s door it shows. With BMSCE’s mark and learning signs, A painted tale where knowledge shines.", 
     nextCode: "Foxtrot703" 
   },
   6: { 
@@ -137,5 +137,6 @@ function verifyCode() {
   }
 
 }
+
 
 
