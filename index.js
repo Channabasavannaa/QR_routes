@@ -3,113 +3,113 @@ const fmessage = "Well done! Here’s your next code and clue";
 
 const steps = {
   1: { 
-    passkey: "apple123", 
+    passkey: "Alpha809", 
     message: fmessage, 
-    clue: "By the ground, near the exit gate where entry is checked", 
-    nextCode: "banana456" 
+    clue: "By the ground, where paths unfold, At the exit, watchful and bold. Entry granted with proof in hand, Pass with care to cross this land.", 
+    nextCode: "Bravo608" 
   },
   2: { 
-    passkey: "banana456", 
+    passkey: "Bravo608", 
     message: fmessage, 
-    clue: "Behind tall pines along the path, resting near earth and flowers", 
-    nextCode: "cherry789" 
+    clue: "Along the path where footsteps stray, Behind tall pines near the ground’s sway. With earth and bloom, I hold my grace, Find me resting in a cozy place.", 
+    nextCode: "Charlie777" 
   },
   3: { 
-    passkey: "cherry789", 
+    passkey: "Charlie777", 
     message: fmessage, 
-    clue: "Where the flag waves with pride before the chief’s spot", 
-    nextCode: "tomato456" 
+    clue: "Waving high with colors bold, Stories of pride and honor told. Before the chief, I stand so bright, Spot me here within your sight.", 
+    nextCode: "Delta502" 
   },
   4: { 
-    passkey: "tomato456", 
+    passkey: "Delta502", 
     message: fmessage, 
-    clue: "On the 7th floor, between classrooms where a colorful mural tells stories", 
-    nextCode: "grape321" 
+    clue: "On the seventh floor where minds engage, Between classrooms, colors stage. A tale unfolds with words so clear, Welcome to learning found right here.", 
+    nextCode: "Echo602" 
   },
   5: { 
-    passkey: "grape321", 
+    passkey: "Echo602", 
     message: fmessage, 
-    clue: "Along the corridor at 7th floor before the wise professor’s door, with BMSCE’s painted mark", 
-    nextCode: "melon654" 
+    clue: "Along the corridor where wisdom flows, Before the wise one’s door it shows. With BMSCE’s mark and learning signs, A painted tale where knowledge shines.", 
+    nextCode: "Foxtrot703" 
   },
   6: { 
-    passkey: "melon654", 
+    passkey: "Foxtrot703", 
     message: "Congrats on completing the heist!", 
-    clue: "No more clues — the hunt ends in the lab with the organizers", 
+    clue: "The final stop where meets the team, In a lab where sunlight gleams. At a corner where light creeps in, The organizers wait — your hunt ends within.", 
     nextCode: null 
   },
 
   7: { 
-    passkey: "peach111", 
+    passkey: "Golf208", 
     message: fmessage, 
-    clue: "Where friends gather for coffee, snacks, and chat near the tall tree", 
-    nextCode: "pear222" 
+    clue: "In a passage where friends meet, Next to the tree both tall and sweet. A place for coffee, snack, and chat, Find the spot where friends all sat.", 
+    nextCode: "Hotel805" 
   },
   8: { 
-    passkey: "pear222", 
+    passkey: "Hotel805", 
     message: fmessage, 
-    clue: "Near PJ block, the store for copies, prints, and stationery", 
-    nextCode: "plum333" 
+    clue: "Need a copy or a printout done? Stationery too, all in one run. Near PJ block, the helpers stay, The store doors will guide your way.", 
+    nextCode: "India701" 
   },
   9: { 
-    passkey: "plum333", 
+    passkey: "India701", 
     message: fmessage, 
-    clue: "Between two halls lies the path to the Ladies’ Parlor", 
-    nextCode: "kiwi444" 
+    clue: "Between two halls where voices rise, A path that leads a quiet prize. Find the way where footsteps stray, To the Parlor where ladies stay.", 
+    nextCode: "Juliet608" 
   },
   10: { 
-    passkey: "kiwi444", 
+    passkey: "Juliet608", 
     message: fmessage, 
-    clue: "On the 7th floor, where experts meet and bright designs shine", 
-    nextCode: "mango555" 
+    clue: "High above, where experts meet, Excellence thrives in every seat. On the seventh floor, a beacon shines, Seek the place of bright designs.", 
+    nextCode: "Kilo206" 
   },
   11: { 
-    passkey: "mango555", 
+    passkey: "Kilo206", 
     message: fmessage, 
-    clue: "Before the trophies, at the silent desk that guards the light", 
-    nextCode: "berry666" 
+    clue: "A silent desk with warmth to share, Though empty now, it’s always there. Before the trophies, proud and bright, Find this spot that guards the light.", 
+    nextCode: "Lima402" 
   },
   12: { 
-    passkey: "berry666", 
+    passkey: "Lima402", 
     message: "Congrats on completing the heist!", 
-    clue: "No more clues — the hunt ends in the lab with the organizers", 
+    clue: "The final stop where meets the team, In a lab where sunlight gleams. At a corner where light creeps in, The organizers wait — your hunt ends within.", 
     nextCode: null 
   },
 
   13: { 
-    passkey: "lemon777", 
+    passkey: "Mike705", 
     message: fmessage, 
-    clue: "In the Zone of flight — drones and gadgets at the buzzing tech stall", 
-    nextCode: "lime888" 
+    clue: "In a Zone buzzing with 99 flights, Where drones and gadgets catch the light. Find the hub of flying dreams, The tech stall bursting at the seams.", 
+    nextCode: "November506" 
   },
   14: { 
-    passkey: "lime888", 
+    passkey: "November506", 
     message: fmessage, 
-    clue: "By the shining block, at the booth that captures smiles and photos", 
-    nextCode: "fig999" 
+    clue: "Smile for the moment, freeze the cheer, By the block that shines year to year. A booth awaits your joyful face, Capturing fun in a tiny space.", 
+    nextCode: "Oscar208" 
   },
   15: { 
-    passkey: "fig999", 
+    passkey: "Oscar208", 
     message: fmessage, 
-    clue: "Take the odd lift to the basement where secrets hide in the shadows", 
-    nextCode: "guava000" 
+    clue: "Take the lift that’s odd in count, To the basement where clues mount. Down below, the secrets hide, In shadows where the hints reside.", 
+    nextCode: "Papa101" 
   },
   16: { 
-    passkey: "guava000", 
+    passkey: "Papa101", 
     message: fmessage, 
-    clue: "At the hall’s end, the glowing box that serves treats with a button", 
-    nextCode: "papaya123" 
+    clue: "At the hall’s end where footsteps slow, A box of treats in quiet glow. Press a button, snacks appear, Find this delight close and near.", 
+    nextCode: "Quebecc205" 
   },
   17: { 
-    passkey: "papaya123", 
+    passkey: "Quebecc205", 
     message: fmessage, 
-    clue: "Next to the HOD’s cabin, where coding minds and knowledge grow", 
-    nextCode: "dates456" 
+    clue: "Where minds craft code to teach and learn, Next to the HOD’s cabin, Knowledge burns. Seek the door where data flows, In the place where insight grows.", 
+    nextCode: "Romeo809" 
   },
   18: { 
-    passkey: "dates456", 
+    passkey: "Romeo809", 
     message: "Congrats on completing the heist!", 
-    clue: "No more clues — the hunt ends in the lab with the organizers", 
+    clue: "The final stop where meets the team, In a lab where sunlight gleams. At a corner where light creeps in, The organizers wait — your hunt ends within.", 
     nextCode: null 
   }
 };
@@ -137,4 +137,5 @@ function verifyCode() {
   }
 
 }
+
 
