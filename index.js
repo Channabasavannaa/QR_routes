@@ -1,5 +1,6 @@
 
 const fmessage = "Well done! Here’s your next code and clue";
+const glink = "https://forms.gle/CX9v4h9Zvr9gKDTw6"
 
 const steps = {
   1: { 
@@ -137,6 +138,7 @@ function verifyCode() {
   }
 
 }
+
 
 
 
