@@ -112,6 +112,34 @@ button:active {
   font-weight: bold;
 }
 
+#googleform {
+  text-align: center; /* center the button */
+  margin: 40px 0;
+}
+
+#googleform a {
+  display: inline-block;
+  background: linear-gradient(135deg, #7b5dde, #762e7d);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#googleform a:hover {
+  background: linear-gradient(135deg, #b466bb, #7a4adb);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#googleform a:active {
+  transform: scale(0.97);
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   .container {
@@ -121,3 +149,4 @@ button:active {
     font-size: 1.5rem;
   }
 }
+
