@@ -112,7 +112,13 @@ const steps = {
     message: "Congrats on completing the heist!", 
     clue: "The final stop where meets the team, In a lab where sunlight gleams. At a corner where light creeps in, The organizers wait — your hunt ends within.", 
     nextCode: null 
-  }
+  },
+  19: { 
+    passkey: "Ocean921", 
+    message: "You’ve unlocked another secret path!", 
+    clue: "In the archives where whispers stay, Among the shelves you’ll find the way. A dusty book with pages torn, Reveals the code you’ve longed to adorn.", 
+    nextCode: "Sea356"
+}
 };
 
 
@@ -138,6 +144,7 @@ function verifyCode() {
   }
 
 }
+
 
 
 
