@@ -67,7 +67,7 @@ const steps = {
   11: { 
     passkey: "Kilo206", 
     message: fmessage, 
-    clue: "A silent desk with warmth to share, Though empty now, it’s always there. Before the trophies, proud and bright, Find this spot that guards the light.", 
+    clue: "A silent desk 7th floor with warmth to share, Though empty now, it’s always there. Before the trophies, proud and bright, Find this spot that guards the light.", 
     nextCode: "Lima402" 
   },
   12: { 
@@ -144,6 +144,7 @@ function verifyCode() {
   }
 
 }
+
 
 
 
